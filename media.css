@@ -1,0 +1,137 @@
+@media(max-width:991px)
+{
+:root{--font-sz:1.5rem;}
+body{overflow-X:hidden;}
+header.flex {justify-content:space-between;padding: 2rem;}
+header.flex , section
+  { text-align:center;
+    /* padding: 2rem;   */
+  }
+img{width:80%}
+section{justify-content:center;flex-direction:column;}
+.container{ flex-direction:column;}
+ul div.left-nav {
+  flex-direction:column;
+  margin-left: 1%;
+  margin-right: auto;
+  clip-path: polygon(100% 100%, 0 100%, 100% 100%, 99% 100%);
+}
+header ul {flex-direction: row-reverse;margin-left: auto;}
+ul.left-nav {margin-left: 1rem;}
+ul li a{font-size: .9rem;padding-left: .2rem;}
+ul li .fa-bars{display: inline-block;}
+.left h2{font-size:1.6rem;}
+.left h2::before{margin: auto;width:5rem ;top:4.5rem;}
+.right{position: absolute;
+  z-index: -1;}
+.down{display:flex; flex-direction:column !important}
+#promo{justify-content:center}
+.right {width:100%;transform: translate(0)}
+.flex-col{
+    flex-direction:row;
+    width:100%;
+  }
+  .Experience i.fa-play{
+    left:49%; 
+   transform:translate(-23%,-80%);
+  
+  }
+.Experience .left h2{position:relative;}
+.Experience .left h2:before {
+     top: 4.5rem;
+     position: absolute;
+     left: 40%;
+        transform: translate(10px, 10px);
+}
+.Experience .right-exper i.fa-play {
+        top: 79%;
+        left: -15%;
+        transform: translate(-100%, 66%);
+    }
+.play-left {left: 43% !important;
+        transform: translate(43%, -70%)!important;}
+.centro .left h2:before {
+    top: 1.5rem;
+    transform: translate(4.2rem, 1rem);
+    width: 4.5rem;}
+/*  */
+ 
+.about .left h2:before {
+    top: 3.7rem;
+    margin-left: 6.85rem;}
+
+/* leader */
+.leader .item {
+    width: 90%;
+    margin-top: 3.5rem;
+      flex-direction: column;
+  }
+  .details p:nth-child(2), .social i{    text-align: center;}
+  .details .social {
+    justify-content: center;
+}
+/*  .blog-details*/
+.blog-details .blog-item {
+    width: calc((100% - 20px) / 2);}
+/* client */
+.container-div  {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+ .div-icon .block-icon    {
+    text-align: center;
+    width:25%;
+}
+
+/* get-tech */
+
+.getInTech .left .icon-tech .inf-cl h4{text-align:start!important;}
+ .getInTech .left .icon-tech .inf-cl p{text-align:start!important;}
+.getInTech .left .icon-tech .i-contact{margin-left:1rem;} 
+
+}
+/* ==================================== */
+    /* ----max-width:768px 
+====================================*/
+@media(max-width:768px)
+{
+
+  .left h2 {font-size:.8rem}
+  .left h2:before {
+        transform: translate(-.8rem, -1.1rem);
+  }
+   .div-icon .block-icon{
+    text-align: center;
+    width:15%;
+}
+.Experience .right-exper i.fa-play {
+        top: 79%;
+        left: 0%;
+        transform: translate(-100%, 66%);
+    }
+        .centro .left h2:before {
+        top: 1.5rem;
+        transform: translate(2rem, -.1rem);
+        
+}
+/* client */
+
+/* ==================================== */
+     /* media-----max-width:425px 
+====================================*/
+@media(max-width:425px)
+{
+    header.flex {justify-content:center;
+      height:100px;padding:5rem;flex-direction:column;padding-top:5rem;}
+    section{justify-content:center;flex-direction:column;}
+    .left{width:100% ; flex:1 1 50%;margin:auto;}
+
+
+}
+@media(max-width:425px){
+  .Experience .left{position:relative;
+  width:;}
+   .left h2{font-size:.5rem}
+    .left{width:100% ; flex:1 1 100%;margin:auto;padding:4rem}
+}
